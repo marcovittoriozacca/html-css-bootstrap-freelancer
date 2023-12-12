@@ -2,9 +2,12 @@
     border: 1px solid red;
 } */
 
-header{
-
+.bg-nav{
     background-color: #2C3E50;
+}
+
+.bg-row-green{
+    background-color: #1ABC9C;
 }
 
 a{
@@ -12,22 +15,13 @@ a{
     color: currentColor;
 }
 
-nav svg{
-    fill: gray;
-}
-
-.bg-row-green{
-    background-color: #1ABC9C;
-}
-
-
-nav ul{
-    list-style-type: none;
+#start figure{
+    width: 300px;
 }
 
 .bar-star{
     height: 5px;
-    width: 80px;
+    width: clamp(90px, 13vw, 200px);
     background-color: white;
     border-radius: 50px;
     margin-inline: 10px;

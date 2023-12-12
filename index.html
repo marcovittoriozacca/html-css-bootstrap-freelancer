@@ -15,32 +15,35 @@
     
       <!-- nav bar -->
     <header>
-        <nav>
+        <nav class="bg-nav">
 
-            <div class="container-fluid container-md">
+            <div class="container-fluid container-lg">
 
-                <div class="row text-uppercase text-light fw-bold py-4">
+                <div class="row align-items-center text-uppercase text-light fw-bold">
 
-                    <div class="col-6 fs-5">
-                        start bootstrap
+                    <div class="col-6">
+                        <div class="fs-4 py-4">start bootstrap</div>
                     </div>
 
-                    <div class="col-6 d-flex justify-content-end align-items-center">
 
-                        <ul class="d-none d-md-flex">
-                            <li class="px-3">
-                                <a href="#">portfolio</a>
-                            </li>
-                            <li class="px-3">
-                                <a href="#">about</a>
-                            </li>
-                            <li class="px-3">
-                                <a href="#">contact</a>
-                            </li>
-                        </ul>
-
-                        <svg class="border border-light rounded p-1 d-md-none" xmlns="http://www.w3.org/2000/svg" height="36" width="46" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" fill=""/></svg>
+                    <div class="col-6">
+                        <div class="d-flex align-items-center justify-content-end">
+                            <ul class="m-0 d-none d-md-flex list-unstyled">
+                                <li>
+                                    <a href="#portfolio">portfolio</a>
+                                </li>
+                                <li class="px-4">
+                                    <a href="#">about</a>
+                                </li>
+                                <li>
+                                    <a href="#">contact</a>
+                                </li>
+                            </ul>
+                        
+                            <svg class="border border-light rounded p-1 d-md-none" xmlns="http://www.w3.org/2000/svg" height="36" width="46" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" fill="gray"/></svg>
+                        </div>
                     </div>
+
                 </div>
 
             </div>
@@ -51,13 +54,14 @@
 
     <main>
 
+        <!-- start section -->
         <section id="start" class="bg-row-green py-4">
             <div class="container">
                     <div class="row g-3 text-center fw-bold text-light text-uppercase">
 
-                        <div class="col-12">
+                        <div class="col-12 d-flex justify-content-center align-items-center">
                             <figure>
-                                <img src="./assets/img/avatar.svg" alt="avatar-logo">
+                                <img src="./assets/img/avatar.svg" class="figure-img img-fluid" alt="avatar-logo">
                             </figure>
                         </div>
 
@@ -80,53 +84,59 @@
 
         <!-- portfolio section -->
         <section id="portfolio" class="bg-row-white py-4">
-            <div class="container">
-                <div class="row">
 
-                    <div class="col-12">
-                        <h1 class="display-5 fw-bold text-uppercase text-center">portfolio</h1>
-                    </div>
+            <div class="container-fluid container-lg">
 
-                    <div class="col-12">
+                <div class="py-4">
+                    <div class="row lex-column g-2">
+                        <div class="col-12">
+                            <h1 class="fw-bold text-uppercase text-center">portfolio</h1>
+                        </div>
 
-                        <div class="d-flex align-items-center justify-content-center">
-                            <div class="bar-star bg-dark"></div>
-                            <i class="fas fa-star display-5"></i>
-                            <div class="bar-star bg-dark"></div>
+                        <div class="col-12">
+
+                            <div class="d-flex align-items-center justify-content-center">
+                                <div class="bar-star bg-dark"></div>
+                                <i class="fas fa-star display-5"></i>
+                                <div class="bar-star bg-dark"></div>
+                            </div>
                         </div>
                     </div>
-                    
-                    <div class="col-12 py-2">
+                </div>
+
+                <div class="row">
+                
+                    <div class="col-12 col-md-6 col-lg-4">
                         <figure class="figure">
                             <img src="./assets/img/cabin.png" class="img-fluid rounded" alt="cabin-img">
                         </figure>
                     </div>
 
-                    <div class="col-12 py-2">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <figure class="figure">
                             <img src="./assets/img/cake.png" class="img-fluid rounded" alt="cake-img">
                         </figure>
                     </div>
 
-                    <div class="col-12 py-2">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <figure class="figure">
                             <img src="./assets/img/circus.png" class="img-fluid rounded" alt="circus-img">
                         </figure>
                     </div>
 
-                    <div class="col-12 py-2">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <figure class="figure">
                             <img src="./assets/img/game.png" class="img-fluid rounded" alt="game-img">
                         </figure>
                     </div>
 
-                    <div class="col-12 py-2">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <figure class="figure">
                             <img src="./assets/img/safe.png" class="img-fluid rounded" alt="safe-img">
                         </figure>
                     </div>
 
-                    <div class="col-12 py-2">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <figure class="figure">
                             <img src="./assets/img/submarine.png" class="img-fluid rounded" alt="submarine-img">
                         </figure>
