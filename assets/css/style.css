@@ -1,9 +1,9 @@
-/* *{
-    border: 1px solid red;
-} */
 
 .bg-nav{
     background-color: #2C3E50;
+}
+.bg-light-blue{
+    background-color: #3A546D;
 }
 
 .bg-row-green{
@@ -33,3 +33,14 @@ textarea{
     border-top: none;
     border-right: none;
 }
+.social-circle{
+    width: 60px;
+    aspect-ratio: 1;
+}
+.green-color{
+    color: #1ABC9C;
+}
+
+/* footer *{
+    border: 1px solid red;
+} */
