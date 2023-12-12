@@ -1,0 +1,34 @@
+/* *{
+    border: 1px solid red;
+} */
+
+header{
+
+    background-color: #2C3E50;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+nav svg{
+    fill: gray;
+}
+
+.bg-row-green{
+    background-color: #1ABC9C;
+}
+
+
+nav ul{
+    list-style-type: none;
+}
+
+.bar-star{
+    height: 5px;
+    width: 80px;
+    background-color: white;
+    border-radius: 50px;
+    margin-inline: 10px;
+}
