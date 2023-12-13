@@ -41,6 +41,11 @@ textarea{
     color: #1ABC9C;
 }
 
-/* footer *{
-    border: 1px solid red;
-} */
+.burger-custom-press{
+    color: transparent;
+}
+
+.burger-custom-icon{
+    filter: invert(0.7);
+    border: 2px solid gray;
+}
