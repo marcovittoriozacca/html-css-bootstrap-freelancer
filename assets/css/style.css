@@ -29,9 +29,11 @@ a{
 
 textarea{
     width: 100%;
-    border-left: none;
-    border-top: none;
-    border-right: none;
+}
+form input,
+form textarea{
+    border: none;
+    border-bottom: 1px solid gray;
 }
 .social-circle{
     width: 60px;
