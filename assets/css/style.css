@@ -1,7 +1,7 @@
-
 .bg-nav{
     background-color: #2C3E50;
 }
+
 .bg-light-blue{
     background-color: #3A546D;
 }
@@ -34,11 +34,14 @@ form input,
 form textarea{
     border: none;
     border-bottom: 1px solid gray;
+    outline: none;
 }
+
 .social-circle{
     width: 60px;
     aspect-ratio: 1;
 }
+
 .green-color{
     color: #1ABC9C;
 }
